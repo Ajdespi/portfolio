@@ -19,6 +19,8 @@ html {
 
 body {
   background-image: url('/image/pix5.jpg');
+  background-size: cover;
+  background-position: top center;
 }
 
 a {
@@ -27,8 +29,8 @@ a {
 
 #container {
   // background-image: url("/image/pix5.jpg");
-  background-size: cover;
-  background-position: top center;
+  // background-size: cover;
+  // background-position: top center;
   min-height: 100vh;
   width: 100%;
   display: flex;
