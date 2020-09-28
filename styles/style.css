@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 #header {
   position: fixed;
   z-index: 10;
@@ -234,7 +233,7 @@
 
 #header .social_media p:nth-child(1) {
   letter-spacing: 0.1rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 #header .social_media p:nth-child(2) {
@@ -570,8 +569,9 @@
     padding-top: 10px;
     font-size: 1rem;
   }
-  .social_media p:nth-child(1) {
-    font-size: 3rem;
+  .social_media img {
+    width: 16px;
+    height: 16px;
   }
 }
 
@@ -592,6 +592,7 @@ body {
   background-image: url("/image/pix5.jpg");
   background-size: cover;
   background-position: top center;
+  background-repeat: no-repeat;
 }
 
 a {
