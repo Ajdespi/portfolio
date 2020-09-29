@@ -382,25 +382,31 @@
 // media queries
 
 @media only screen and (min-width: 1200px) {
-  #header .hamburger {
-    display: none;
-  }
+  // #header .hamburger {
+  //   display: none;
+  // }
 
   #header .nav-list ul {
+    display: none;
     list-style: none;
     position: initial;
     background-color: transparent;
     width: fit-content;
     height: auto;
-    left: 100%;
-    top: 0;
-    display: block;
+    // left: 100%;
+    // top: 0;
+    // display: block;
     // flex-direction: column;
     // justify-content: center;
-    align-items: center;
-    z-index: 1;
-    overflow-x: hidden;
-    transition: 0.8s ease left;
+    // align-items: center;
+    // z-index: 1;
+    // overflow-x: hidden;
+    // transition: 0.8s ease left;
+
+    &.active {
+      left: 0;
+      display: block;
+    }
 
     & li {
       display: inline-block;
@@ -429,7 +435,6 @@
         }
       }
     }
-
 
     & li:hover a::after {
       transform: translate(-50%, -50%) scale(1);
@@ -500,7 +505,6 @@
       font-size: 1rem;
     }
   }
-
 
   .social_media img {
     width: 16px;

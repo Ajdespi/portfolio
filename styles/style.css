@@ -463,10 +463,8 @@
 }
 
 @media only screen and (min-width: 1200px) {
-  #header .hamburger {
-    display: none;
-  }
   #header .nav-list ul {
+    display: none;
     list-style: none;
     position: initial;
     background-color: transparent;
@@ -474,16 +472,10 @@
     width: -moz-fit-content;
     width: fit-content;
     height: auto;
-    left: 100%;
-    top: 0;
+  }
+  #header .nav-list ul.active {
+    left: 0;
     display: block;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    z-index: 1;
-    overflow-x: hidden;
-    -webkit-transition: 0.8s ease left;
-    transition: 0.8s ease left;
   }
   #header .nav-list ul li {
     display: inline-block;
@@ -600,7 +592,7 @@ a {
 }
 
 #container {
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;

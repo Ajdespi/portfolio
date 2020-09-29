@@ -15,7 +15,7 @@ hamburger.addEventListener("click", () => {
 
 // cursor
 let mouseCursor = document.querySelector(".cursor");
-let allLinks = document.querySelectorAll(".links a");
+let allLinks = document.querySelectorAll(".links");
 
 window.addEventListener("mousemove", cursor);
 
