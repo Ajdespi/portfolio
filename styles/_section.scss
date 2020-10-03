@@ -53,7 +53,7 @@
       height: 100%;
       width: 100%;
       border-radius: 50%;
-      border: 3px solid $secondary_color;
+      border: 5px solid rgb(158, 156, 156);
       animation: hamburger_pulse 2s ease infinite;
     }
 
@@ -200,7 +200,7 @@
   .social_media {
     position: absolute;
     color: $secondary_color;
-    top: 220px;
+    top: 280px;
     left: 93%;
 
     & p:nth-child(1) {
@@ -359,7 +359,7 @@
 
   100% {
     opacity: 0;
-    transform: scale(1.4);
+    transform: scale(1.5);
   }
 }
 
