@@ -15,7 +15,7 @@ body {
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
-  cursor: none;
+  // cursor: none;
 }
 
 a {
@@ -38,34 +38,34 @@ a {
   top: 0;
   width: 3rem;
   height: 3rem;
-  border: 2px solid rgba(13, 242, 212, 0.3);
+  background: rgba(13, 242, 212, 0.3);
   border-radius: 50%;
-  position: fixed;
+  position: absolute;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  transition: all 0.01s ease;
+  // transition: all 0.01s ease;
   transform-origin: 100% 100%;
-  // z-index: -1;
+  z-index: 2000;
 }
 
-.cursor2 {
-  left: 0;
-  top: 0;
-  width: .8rem;
-  height: .8rem;
-  background: rgba(99, 117, 117, 0.9);
-  border-radius: 50%;
-  position: fixed;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  // transition: all 0.2s ease;
-  transform-origin: 100% 100%;
-  // z-index: 1000;
-}
+// .cursor2 {
+//   left: 0;
+//   top: 0;
+//   width: .8rem;
+//   height: .8rem;
+//   background: rgba(99, 117, 117, 0.9);
+//   border-radius: 50%;
+//   position: fixed;
+//   transform: translate(-50%, -50%);
+//   pointer-events: none;
+//   // transition: all 0.2s ease;
+//   transform-origin: 100% 100%;
+//   // z-index: 1000;
+// }
 
 .link-grow {
   transform: scale(2);
   background: rgba(5, 245, 193, 0.4);
-  transition: 0.2s ease;
+  // transition: 0.02s ease;
   border: none;
 }

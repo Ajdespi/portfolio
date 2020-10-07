@@ -9,6 +9,8 @@ hamburger.addEventListener("click", () => {
   mobile_menu.classList.toggle("active");
 });
 
+
+
 // cursor
 let mouseCursor = document.querySelector(".cursor");
 let mouseCursor2 = document.querySelector(".cursor2");
@@ -34,6 +36,8 @@ allLinks.forEach((link) => {
 
 
 
+// type writer
+
 var app = document.getElementById("app");
 
 var typewriter = new Typewriter(app, {
@@ -47,7 +51,7 @@ typewriter
   .pauseFor(1500)
   .deleteChars(24)
 
-  .typeString('I <span style="color: #0df2d4;">Love</span> Design')
+  .typeString('Coding is <span style="color: #0df2d4;">Life</span>')
   .pauseFor(1500)
   .deleteChars(24)
 
